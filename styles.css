@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Adding a semi-transparent background to the header for better readability */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: 
+        "top-left top-right"
+        "middle middle"
+        "bottom-left bottom-right";
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.section {
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: rgba(91, 97, 111, 0.8); /* Adding a semi-transparent background to the sections for better readability */
+    padding: 20px;
+}
+
+.top-left {
+    grid-area: top-left;
+}
+
+.top-right {
+    grid-area: top-right;
+}
+
+
+.bottom-left {
+    grid-area: bottom-left;
+}
+
+.bottom-right {
+    grid-area: bottom-right;
+}
+
+.human-image {
+    width: 200px; /* Adjust the width of the 3D human image as needed */
+    height: 300px; /* Adjust the height of the 3D human image as needed */
+    background-color: lightgray; /* Placeholder color */
+}
+
+h2 {
+    margin-top: 0;
+}
+
+p {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+strong {
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
