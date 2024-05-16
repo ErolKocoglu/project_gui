@@ -29,9 +29,9 @@ h1 {
 }
 
 .section {
-    border: 1px solid #ccc;
+    border: 0px solid #ccc;
     box-sizing: border-box;
-    background-color: rgba(91, 97, 111, 0.8); /* Adding a semi-transparent background to the sections for better readability */
+    background-color: rgba(91, 97, 111, 0.95); /* Adding a semi-transparent background to the sections for better readability */
     padding: 20px;
 }
 
