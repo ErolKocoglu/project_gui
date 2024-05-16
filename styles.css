@@ -35,6 +35,10 @@ h1 {
     padding: 20px;
 }
 
+.section p {
+    background-color: rgba(159, 185, 224, 0.1);
+}
+
 .top-left {
     grid-area: top-left;
 }
