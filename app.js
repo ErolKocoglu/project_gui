@@ -20,6 +20,7 @@ function changeColor() {
 }
 
 //feature
+//feature2
 //new branch stuff
 function execute() {
   let heart_rate = document.getElementById("heart_rate");
