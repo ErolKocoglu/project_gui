@@ -19,12 +19,33 @@ function changeColor() {
   }
 }
 
-//feature
-//feature2
-//new branch stuff
+
 function execute() {
+  let max=220;
+  let min=0;
+  let array=new Array(20);
   let heart_rate = document.getElementById("heart_rate");
-  let rand= Math.random()*20 + 80;
+  let lowerLimit=parseInt(heart_rate.innerHTML) -10;
+  
+  let j=lowerLimit;
+  
+  for(let i=0;i<array.length;i++){
+    array[i]=j;
+    
+    j++;
+  }
+
+  let index=Math.trunc(Math.random()*20);
+  let rand=array[index];
+  
+  if(rand>max){
+    rand=max;
+  }
+
+  if(rand<min){
+    rand=min;
+  }
+
   heart_rate.innerHTML=Math.trunc(rand);
 }
 changeColor();
