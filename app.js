@@ -1,5 +1,5 @@
 
-
+// I have a small problem with github commits and adding this line just to test it, ignore it
 // variable to store our intervalID
 let nIntervId;
 let nabiz =document.querySelector("#heart_rate");
